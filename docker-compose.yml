@@ -4,7 +4,7 @@ services:
     restart: always
     image: postgres:10
     environment:
-      - POSTGRES_USER=testusr
+      - POSTGRES_USER=kiidbrian
       - POSTGRES_PASSWORD=password
       - POSTGRES_DB=testdb
     volumes:
